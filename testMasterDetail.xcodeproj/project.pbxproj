@@ -102,8 +102,8 @@
 				F592DBEC1C00CBA400A5FAF9 /* AppDelegate.swift */,
 				F592DBEE1C00CBA400A5FAF9 /* MasterViewController.swift */,
 				F592DBF01C00CBA400A5FAF9 /* DetailViewController.swift */,
-				F592DBF21C00CBA400A5FAF9 /* Main.storyboard */,
 				F592DBF51C00CBA400A5FAF9 /* Assets.xcassets */,
+				F592DBF21C00CBA400A5FAF9 /* Main.storyboard */,
 				F592DBF71C00CBA400A5FAF9 /* LaunchScreen.storyboard */,
 				F592DBFA1C00CBA400A5FAF9 /* Info.plist */,
 			);
