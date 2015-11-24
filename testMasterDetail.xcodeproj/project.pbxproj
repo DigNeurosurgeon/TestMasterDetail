@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		F592DBED1C00CBA400A5FAF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F592DBEC1C00CBA400A5FAF9 /* AppDelegate.swift */; };
 		F592DBEF1C00CBA400A5FAF9 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F592DBEE1C00CBA400A5FAF9 /* MasterViewController.swift */; };
-		F592DBF11C00CBA400A5FAF9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F592DBF01C00CBA400A5FAF9 /* DetailViewController.swift */; };
-		F592DBF41C00CBA400A5FAF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F592DBF21C00CBA400A5FAF9 /* Main.storyboard */; };
+		F592DBF11C00CBA400A5FAF9 /* FirstDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F592DBF01C00CBA400A5FAF9 /* FirstDetailViewController.swift */; };
+		F592DBF41C00CBA400A5FAF9 /* FirstScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F592DBF21C00CBA400A5FAF9 /* FirstScreen.storyboard */; };
 		F592DBF61C00CBA400A5FAF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F592DBF51C00CBA400A5FAF9 /* Assets.xcassets */; };
 		F592DBF91C00CBA400A5FAF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F592DBF71C00CBA400A5FAF9 /* LaunchScreen.storyboard */; };
 		F592DC041C00CBA400A5FAF9 /* testMasterDetailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F592DC031C00CBA400A5FAF9 /* testMasterDetailTests.swift */; };
 		F592DC0F1C00CBA500A5FAF9 /* testMasterDetailUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F592DC0E1C00CBA500A5FAF9 /* testMasterDetailUITests.swift */; };
+		F5C7E0E61C01222F00252375 /* SecondScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5C7E0E51C01222F00252375 /* SecondScreen.storyboard */; };
+		F5C7E0E81C01232400252375 /* SecondDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C7E0E71C01232400252375 /* SecondDetailViewController.swift */; };
+		F5C7E0EA1C0275C400252375 /* ThirdScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5C7E0E91C0275C400252375 /* ThirdScreen.storyboard */; };
+		F5C7E0EC1C02764600252375 /* ThirdDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C7E0EB1C02764600252375 /* ThirdDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +42,8 @@
 		F592DBE91C00CBA400A5FAF9 /* testMasterDetail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testMasterDetail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F592DBEC1C00CBA400A5FAF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F592DBEE1C00CBA400A5FAF9 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		F592DBF01C00CBA400A5FAF9 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		F592DBF31C00CBA400A5FAF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F592DBF01C00CBA400A5FAF9 /* FirstDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstDetailViewController.swift; sourceTree = "<group>"; };
+		F592DBF31C00CBA400A5FAF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/FirstScreen.storyboard; sourceTree = "<group>"; };
 		F592DBF51C00CBA400A5FAF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F592DBF81C00CBA400A5FAF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F592DBFA1C00CBA400A5FAF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +53,10 @@
 		F592DC0A1C00CBA500A5FAF9 /* testMasterDetailUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testMasterDetailUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F592DC0E1C00CBA500A5FAF9 /* testMasterDetailUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testMasterDetailUITests.swift; sourceTree = "<group>"; };
 		F592DC101C00CBA500A5FAF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5C7E0E51C01222F00252375 /* SecondScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SecondScreen.storyboard; sourceTree = "<group>"; };
+		F5C7E0E71C01232400252375 /* SecondDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondDetailViewController.swift; sourceTree = "<group>"; };
+		F5C7E0E91C0275C400252375 /* ThirdScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ThirdScreen.storyboard; sourceTree = "<group>"; };
+		F5C7E0EB1C02764600252375 /* ThirdDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,10 +108,10 @@
 			isa = PBXGroup;
 			children = (
 				F592DBEC1C00CBA400A5FAF9 /* AppDelegate.swift */,
-				F592DBEE1C00CBA400A5FAF9 /* MasterViewController.swift */,
-				F592DBF01C00CBA400A5FAF9 /* DetailViewController.swift */,
+				F5C7E0ED1C0451BC00252375 /* FirstScreen */,
+				F5C7E0EE1C0451D500252375 /* SecondScreen */,
+				F5C7E0EF1C0451E500252375 /* ThirdScreen */,
 				F592DBF51C00CBA400A5FAF9 /* Assets.xcassets */,
-				F592DBF21C00CBA400A5FAF9 /* Main.storyboard */,
 				F592DBF71C00CBA400A5FAF9 /* LaunchScreen.storyboard */,
 				F592DBFA1C00CBA400A5FAF9 /* Info.plist */,
 			);
@@ -126,6 +134,34 @@
 				F592DC101C00CBA500A5FAF9 /* Info.plist */,
 			);
 			path = testMasterDetailUITests;
+			sourceTree = "<group>";
+		};
+		F5C7E0ED1C0451BC00252375 /* FirstScreen */ = {
+			isa = PBXGroup;
+			children = (
+				F592DBF21C00CBA400A5FAF9 /* FirstScreen.storyboard */,
+				F592DBEE1C00CBA400A5FAF9 /* MasterViewController.swift */,
+				F592DBF01C00CBA400A5FAF9 /* FirstDetailViewController.swift */,
+			);
+			name = FirstScreen;
+			sourceTree = "<group>";
+		};
+		F5C7E0EE1C0451D500252375 /* SecondScreen */ = {
+			isa = PBXGroup;
+			children = (
+				F5C7E0E51C01222F00252375 /* SecondScreen.storyboard */,
+				F5C7E0E71C01232400252375 /* SecondDetailViewController.swift */,
+			);
+			name = SecondScreen;
+			sourceTree = "<group>";
+		};
+		F5C7E0EF1C0451E500252375 /* ThirdScreen */ = {
+			isa = PBXGroup;
+			children = (
+				F5C7E0E91C0275C400252375 /* ThirdScreen.storyboard */,
+				F5C7E0EB1C02764600252375 /* ThirdDetailViewController.swift */,
+			);
+			name = ThirdScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +268,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5C7E0EA1C0275C400252375 /* ThirdScreen.storyboard in Resources */,
 				F592DBF91C00CBA400A5FAF9 /* LaunchScreen.storyboard in Resources */,
+				F5C7E0E61C01222F00252375 /* SecondScreen.storyboard in Resources */,
 				F592DBF61C00CBA400A5FAF9 /* Assets.xcassets in Resources */,
-				F592DBF41C00CBA400A5FAF9 /* Main.storyboard in Resources */,
+				F592DBF41C00CBA400A5FAF9 /* FirstScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +297,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F592DBF11C00CBA400A5FAF9 /* DetailViewController.swift in Sources */,
+				F592DBF11C00CBA400A5FAF9 /* FirstDetailViewController.swift in Sources */,
+				F5C7E0EC1C02764600252375 /* ThirdDetailViewController.swift in Sources */,
+				F5C7E0E81C01232400252375 /* SecondDetailViewController.swift in Sources */,
 				F592DBEF1C00CBA400A5FAF9 /* MasterViewController.swift in Sources */,
 				F592DBED1C00CBA400A5FAF9 /* AppDelegate.swift in Sources */,
 			);
@@ -297,12 +337,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F592DBF21C00CBA400A5FAF9 /* Main.storyboard */ = {
+		F592DBF21C00CBA400A5FAF9 /* FirstScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				F592DBF31C00CBA400A5FAF9 /* Base */,
 			);
-			name = Main.storyboard;
+			name = FirstScreen.storyboard;
 			sourceTree = "<group>";
 		};
 		F592DBF71C00CBA400A5FAF9 /* LaunchScreen.storyboard */ = {
@@ -488,6 +528,7 @@
 				F592DC151C00CBA500A5FAF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F592DC161C00CBA500A5FAF9 /* Build configuration list for PBXNativeTarget "testMasterDetailTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +537,7 @@
 				F592DC181C00CBA500A5FAF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F592DC191C00CBA500A5FAF9 /* Build configuration list for PBXNativeTarget "testMasterDetailUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +546,7 @@
 				F592DC1B1C00CBA500A5FAF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
